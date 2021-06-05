@@ -18,6 +18,6 @@ public class DevOpsApplication {
 
 	@RequestMapping("/")
 	public String getWelcome(@RequestParam String name) {
-		return "Welcome "+name;
+		return "Welcome "+name+" to our Home";
 	}
 }
